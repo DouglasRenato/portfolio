@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfólio | Douglas Renato</title>
+</head>
+
+<body>
+  <header class="fixed-top shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="">
+        <h3 class="m-0 p-0">
+          <strong>&lt;Doug/&gt;</strong>
+          <span class="badge badge-primary badge-pill align-top" style="font-size: 0.3em; padding-bottom: .5px;">BETA</span>
+        </h3>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarsExample05">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link portfolio-link" style="cursor: pointer;">
+              <i class="fas fa-anchor"></i> Portfólio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link talk-to-me-link" style="cursor: pointer;">
+              <i class="fas fa-anchor"></i> Fale comigo
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="main" class="bg-dark text-center" style="margin-top: 58px; height: calc(100vh - 58px); display: flex; align-items: center; justify-content: center;">
+    <div class="text-center">
+      <h1 class="text-light">
+        <strong>
+          Douglas Renato
+        </strong>
+      </h1>
+      <hr class="col-3" style="border-top: 0.37rem solid #fff;">
+      <h2 class="text-white pt-3">Fullstack Web Developer</h2>
+    </div>
+  </section>
+
+  <section id="portfolio" class="container col-md-8 mt-3 mb-3">
+    <div class="text-center mt-3 mb-3">
+      <h3 class="text-dark">
+        <strong>
+          Portfólio
+        </strong>
+      </h3>
+      <hr class="col-2" style="border-top: 0.3rem solid #333;">
+    </div>
+    <div id="cardsList" class="row"></div>
+  </section>
+
+  <footer class="bg-dark text-light">
+    <div class="container mb-3" style="height: 80vh; display: flex; align-items: center;">
+      <div id="talk-to-me" class="row">
+        <div class="col-12">
+          <h5>
+            <strong>&lt;Doug/&gt;</strong>
+            <small class="text-muted ml-2">©</small>
+          </h5>
+          <div style="margin-top: 3.2rem;">
+            <h3>
+              <strong>
+                Fale comigo
+              </strong>
+            </h3>
+            <hr class="col-3 ml-0 mr-0" style="border-top: 0.3rem solid #fff;">
+            <a href="https://github.com/DouglasRenato" target="_blank" style="text-decoration: none;">
+              <i class="fab fa-github text-light" style="border: solid 3px #fff; padding: .7rem; border-radius: 50%; margin: .3em;">
+              </i>
+            </a>
+            <a href="https://www.linkedin.com/in/douglasrenatostefani/" target="_blank" style="text-decoration: none;">
+              <i class="fab fa-linkedin-in text-light" style="border: solid 3px #fff; padding: .7rem; border-radius: 50%; margin: .3em;">
+              </i>
+            </a>
+            <a href="mailto:douglasrenatopro@gmail.com" style="text-decoration: none;">
+              <i class="fas fa-at text-light" style="border: solid 3px #fff; padding: .7rem; border-radius: 50%; margin: .3em;">
+              </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-secondary text-center m-0" style="height: 15vh;">
+      <div class="col">
+        <h6>
+          <strong>Frase favorita</strong>
+        </h6>
+        <hr class="col-1" style="border-top: 0.1rem solid #6C757D; margin-top: 0; margin-bottom: 0.3rem;">
+        <small>
+          "Ninguém nunca terá sucesso sem ajudar aos outros." —Jay Abraham
+        </small>
+      </div>
+    </div>
+  </footer>
+
+  <div class="back-to-top text-white text-right" style=" position: fixed; right: 0; bottom: 0; left: 0; z-index: 1030; display: none;">
+    <i class="fas fa-arrow-circle-up back-to-top-icon" style="padding: .3rem; border: solid 2.5px #fff; border-radius: 50%; font-size: 1.2rem; margin: 0.7rem;
+            text-shadow: #333 0 0 5px; box-shadow: #333 0 0 15px; cursor: pointer; opacity: 0.7;">
+    </i>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="database/projects.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
